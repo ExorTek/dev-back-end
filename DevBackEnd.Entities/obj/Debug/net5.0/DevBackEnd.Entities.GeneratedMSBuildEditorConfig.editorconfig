@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = DevBackEnd.Entities
-build_property.ProjectDir = C:\Users\Memet\source\repos\DevBackEnd\DevBackEnd.Entities\
+build_property.ProjectDir = C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.Entities\

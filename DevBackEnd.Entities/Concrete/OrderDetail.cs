@@ -7,11 +7,10 @@ using DevBackEnd.Core.Entities;
 
 namespace DevBackEnd.Entities.Concrete
 {
-   public class InvoiceDetail:IEntity
+    public class OrderDetail : IEntity
     {
-        public int InvoiceDetailId { get; set; }
-        public int InvoiceId { get; set; }
         public int OrderDetailId { get; set; }
+        public int OrderId { get; set; }
         public int ProductId { get; set; }
         public int Amount { get; set; }
         public decimal UnitPrice { get; set; }

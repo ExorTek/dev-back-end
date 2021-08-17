@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEnd.DataAccess.Test\\DevBackEnd.DataAccess.Test.csproj": {}
+    "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEnd.Core.Test\\DevBackEnd.Core.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEnd.DataAccess.Test\\DevBackEnd.DataAccess.Test.csproj": {
+    "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEnd.Core.Test\\DevBackEnd.Core.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEnd.DataAccess.Test\\DevBackEnd.DataAccess.Test.csproj",
-        "projectName": "DevBackEnd.DataAccess.Test",
-        "projectPath": "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEnd.DataAccess.Test\\DevBackEnd.DataAccess.Test.csproj",
+        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEnd.Core.Test\\DevBackEnd.Core.Test.csproj",
+        "projectName": "DevBackEnd.Core.Test",
+        "projectPath": "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEnd.Core.Test\\DevBackEnd.Core.Test.csproj",
         "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEnd.DataAccess.Test\\obj\\",
+        "outputPath": "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEnd.Core.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

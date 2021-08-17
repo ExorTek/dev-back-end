@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OMkFgXjiQjzrh4KxXqNi7QARrGcjSPBymZTusAXJhSZrfemE0KngG5+8AIoNo25IgtXO1vmLrySiadpFM8+KUA==",
+  "dgSpecHash": "XVIUdoPZhnQ5cNRyaIr8eSzb16qsNbn2RrkiVsQuY5TcI3QvbhGfBilU3Z9MF01DpcbYdYj+IvyfAp6kQ1AGkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Memet\\source\\repos\\DevBackEnd\\DevBackEnd.DataAccess.Test\\DevBackEnd.DataAccess.Test.csproj",
+  "projectFilePath": "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEnd.DataAccess.Test\\DevBackEnd.DataAccess.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Memet\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Memet\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

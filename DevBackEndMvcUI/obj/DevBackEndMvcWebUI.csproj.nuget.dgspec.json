@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Memet\\source\\repos\\DevBackEnd\\DevBackEndMvcUI\\DevBackEndMvcWebUI.csproj": {}
+    "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEndMvcUI\\DevBackEndMvcWebUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Memet\\source\\repos\\DevBackEnd\\DevBackEndMvcUI\\DevBackEndMvcWebUI.csproj": {
+    "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEndMvcUI\\DevBackEndMvcWebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Memet\\source\\repos\\DevBackEnd\\DevBackEndMvcUI\\DevBackEndMvcWebUI.csproj",
+        "projectUniqueName": "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEndMvcUI\\DevBackEndMvcWebUI.csproj",
         "projectName": "DevBackEndMvcWebUI",
-        "projectPath": "C:\\Users\\Memet\\source\\repos\\DevBackEnd\\DevBackEndMvcUI\\DevBackEndMvcWebUI.csproj",
+        "projectPath": "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEndMvcUI\\DevBackEndMvcWebUI.csproj",
         "packagesPath": "C:\\Users\\Memet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Memet\\source\\repos\\DevBackEnd\\DevBackEndMvcUI\\obj\\",
+        "outputPath": "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEndMvcUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

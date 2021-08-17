@@ -15,13 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevBackEnd.Entities.Test", "DevBackEnd.Entities.Test\DevBackEnd.Entities.Test.csproj", "{EEC0E0A8-412A-45C1-89AA-EF2191C95024}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevBackEnd.Core.Test", "DecBackEnd.Core.Test\DevBackEnd.Core.Test.csproj", "{52B99901-7FFC-4AD5-87A2-7D1907BB712D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevBackEnd.Business.Test", "DevBackEnd.Business.Test\DevBackEnd.Business.Test.csproj", "{4C4E4592-B926-4B60-B6E9-623F927D16B5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevBackEnd.DataAccess.Test", "DevBackEnd.DataAccess.Test\DevBackEnd.DataAccess.Test.csproj", "{2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevBackEndMvcWebUI", "DevBackEndMvcUI\DevBackEndMvcWebUI.csproj", "{05AE3318-C4DC-46C9-91F8-198FBD956799}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevBackEndMvcWebUI", "DevBackEndMvcUI\DevBackEndMvcWebUI.csproj", "{05AE3318-C4DC-46C9-91F8-198FBD956799}"
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DevBackEnd.WcfService", "DevBackEnd.WcfService\", "{5DC484B0-8D22-4CA8-B97D-1F779D59AA7B}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -44,6 +42,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DevBackEnd.WcfService", "De
 		SlnRelativePath = "DevBackEnd.WcfService\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevBackEnd.Core.Test", "DevBackEnd.Core.Test\DevBackEnd.Core.Test.csproj", "{344F6929-8895-485C-9CFF-02FC17126157}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,10 +75,6 @@ Global
 		{EEC0E0A8-412A-45C1-89AA-EF2191C95024}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEC0E0A8-412A-45C1-89AA-EF2191C95024}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEC0E0A8-412A-45C1-89AA-EF2191C95024}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52B99901-7FFC-4AD5-87A2-7D1907BB712D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52B99901-7FFC-4AD5-87A2-7D1907BB712D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52B99901-7FFC-4AD5-87A2-7D1907BB712D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52B99901-7FFC-4AD5-87A2-7D1907BB712D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4C4E4592-B926-4B60-B6E9-623F927D16B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4C4E4592-B926-4B60-B6E9-623F927D16B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C4E4592-B926-4B60-B6E9-623F927D16B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -95,6 +91,10 @@ Global
 		{5DC484B0-8D22-4CA8-B97D-1F779D59AA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DC484B0-8D22-4CA8-B97D-1F779D59AA7B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{5DC484B0-8D22-4CA8-B97D-1F779D59AA7B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{344F6929-8895-485C-9CFF-02FC17126157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344F6929-8895-485C-9CFF-02FC17126157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344F6929-8895-485C-9CFF-02FC17126157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344F6929-8895-485C-9CFF-02FC17126157}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

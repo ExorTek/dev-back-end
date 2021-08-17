@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QbvkSRzKtPRnIfWwl+4UE4KQ+Gbk+tQwdpF605hFfCSj8G4J6JjDdxQNQa6Poka8sebE9OKItBryLMMoufXKGQ==",
+  "dgSpecHash": "RVLrgaxPGpQDUQnKFAENU0C0XfAi/OK39TJ+xvYHKCtRdaVEMDhgfpuZoX/K+svEd3VeC2JXizHPz9IpqVfm/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Memet\\source\\repos\\DevBackEnd\\DevBackEnd.Entities.Test\\DevBackEnd.Entities.Test.csproj",
+  "projectFilePath": "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEnd.Entities.Test\\DevBackEnd.Entities.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Memet\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Memet\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

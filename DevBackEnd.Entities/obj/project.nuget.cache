@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I3PCHhERKNe6jU9Tnn7DRPb0KT0CapomsY/JUVQ/e6UJiFUII3W7/hO5IgfgdJeGfmdGMAkDYa4ImSwtSdQoQg==",
+  "dgSpecHash": "NpPCD7HjPzrGWr2qHr/N4iWrdhCxFG/guj7/+dWuAoeu6QdJuxyyv2nVaC7APdwaYoifXKAkcniVhlWw1TimsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Memet\\source\\repos\\DevBackEnd\\DevBackEnd.Entities\\DevBackEnd.Entities.csproj",
+  "projectFilePath": "C:\\Users\\Memet\\Desktop\\dev-back-end\\DevBackEnd.Entities\\DevBackEnd.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Memet\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\Memet\\.nuget\\packages\\iesi.collections\\4.0.4\\iesi.collections.4.0.4.nupkg.sha512",
