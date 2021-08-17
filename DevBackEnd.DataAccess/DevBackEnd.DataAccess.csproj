@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Concrete\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevBackEnd.Core\DevBackEnd.Core.csproj" />
+    <ProjectReference Include="..\DevBackEnd.Entities\DevBackEnd.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
