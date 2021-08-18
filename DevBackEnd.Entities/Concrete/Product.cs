@@ -4,15 +4,15 @@ namespace DevBackEnd.Entities.Concrete
 {
     public class Product:IEntity
     {
-        public int ProductId { get; set; }
-        public string ProductCode { get; set; }
-        public string ProductName { get; set; }
-        public decimal UnitPrice { get; set; }
-        public string Category1 { get; set; }
-        public string Category2 { get; set; }
-        public string Category3 { get; set; }
-        public string Category4 { get; set; }
-        public string Brand { get; set; }
+        public virtual int ProductId { get; set; }
+        public virtual string ProductCode { get; set; }
+        public virtual string ProductName { get; set; }
+        public virtual decimal UnitPrice { get; set; }
+        public virtual string Category1 { get; set; }
+        public virtual string Category2 { get; set; }
+        public virtual string Category3 { get; set; }
+        public virtual string Category4 { get; set; }
+        public virtual string Brand { get; set; }
 
     }
 }

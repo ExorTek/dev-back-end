@@ -1,0 +1,17 @@
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\bin\Debug\net5.0\DevBackEnd.DataAccess.deps.json
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\bin\Debug\net5.0\DevBackEnd.DataAccess.dll
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\bin\Debug\net5.0\ref\DevBackEnd.DataAccess.dll
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\bin\Debug\net5.0\DevBackEnd.DataAccess.pdb
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\bin\Debug\net5.0\DevBackEnd.Core.dll
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\bin\Debug\net5.0\DevBackEnd.Entities.dll
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\bin\Debug\net5.0\DevBackEnd.Core.pdb
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\bin\Debug\net5.0\DevBackEnd.Entities.pdb
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\obj\Debug\net5.0\DevBackEnd.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\obj\Debug\net5.0\DevBackEnd.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\obj\Debug\net5.0\DevBackEnd.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\obj\Debug\net5.0\DevBackEnd.DataAccess.AssemblyInfo.cs
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\obj\Debug\net5.0\DevBackEnd.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\obj\Debug\net5.0\DevBackEnd.DataAccess.csproj.CopyComplete
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\obj\Debug\net5.0\DevBackEnd.DataAccess.dll
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\obj\Debug\net5.0\ref\DevBackEnd.DataAccess.dll
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.DataAccess\obj\Debug\net5.0\DevBackEnd.DataAccess.pdb

@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DevBackEnd.Core.Entities;
+﻿using DevBackEnd.Core.Entities;
+using System;
 
 namespace DevBackEnd.Entities.Concrete
 {
     public class Payment : IEntity
     {
-        public int PaymentId { get; set; }
-        public int OrderId { get; set; }
-        public byte PaymentType { get; set; }
-        public DateTime PaymentDate { get; set; }
-        public bool IsOk { get; set; }
-        public string ApproveCode { get; set; }
-        public decimal PaymentTotal { get; set; }
+        public virtual int PaymentId { get; set; }
+        public virtual int OrderId { get; set; }
+        public virtual byte PaymentType { get; set; }
+        public virtual DateTime PaymentDate { get; set; }
+        public virtual bool IsOk { get; set; }
+        public virtual string ApproveCode { get; set; }
+        public virtual decimal PaymentTotal { get; set; }
     }
 }

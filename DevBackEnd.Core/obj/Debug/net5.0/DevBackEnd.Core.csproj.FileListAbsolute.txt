@@ -10,3 +10,15 @@ C:\Users\Memet\source\repos\DevBackEnd\DevBackEnd.Core\obj\Debug\net5.0\DevBackE
 C:\Users\Memet\source\repos\DevBackEnd\DevBackEnd.Core\obj\Debug\net5.0\DevBackEnd.Core.dll
 C:\Users\Memet\source\repos\DevBackEnd\DevBackEnd.Core\obj\Debug\net5.0\ref\DevBackEnd.Core.dll
 C:\Users\Memet\source\repos\DevBackEnd\DevBackEnd.Core\obj\Debug\net5.0\DevBackEnd.Core.pdb
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.Core\bin\Debug\net5.0\DevBackEnd.Core.deps.json
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.Core\bin\Debug\net5.0\DevBackEnd.Core.dll
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.Core\bin\Debug\net5.0\ref\DevBackEnd.Core.dll
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.Core\bin\Debug\net5.0\DevBackEnd.Core.pdb
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.Core\obj\Debug\net5.0\DevBackEnd.Core.csproj.AssemblyReference.cache
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.Core\obj\Debug\net5.0\DevBackEnd.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.Core\obj\Debug\net5.0\DevBackEnd.Core.AssemblyInfoInputs.cache
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.Core\obj\Debug\net5.0\DevBackEnd.Core.AssemblyInfo.cs
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.Core\obj\Debug\net5.0\DevBackEnd.Core.csproj.CoreCompileInputs.cache
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.Core\obj\Debug\net5.0\DevBackEnd.Core.dll
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.Core\obj\Debug\net5.0\ref\DevBackEnd.Core.dll
+C:\Users\Memet\Desktop\dev-back-end\DevBackEnd.Core\obj\Debug\net5.0\DevBackEnd.Core.pdb

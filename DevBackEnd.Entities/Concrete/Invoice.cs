@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DevBackEnd.Core.Entities;
+﻿using DevBackEnd.Core.Entities;
+using System;
 
 namespace DevBackEnd.Entities.Concrete
 {
     public class Invoice : IEntity
     {
-        public int InvoiceId { get; set; }
-        public int OrderId { get; set; }
-        public DateTime InvoiceDate { get; set; }
-        public int AddressId { get; set; }
-        public string CargoFicheNo { get; set; }
-        public decimal TotalPrice { get; set; }
+        public virtual int InvoiceId { get; set; }
+        public virtual int OrderId { get; set; }
+        public virtual DateTime InvoiceDate { get; set; }
+        public virtual int AddressId { get; set; }
+        public virtual string CargoFicheNo { get; set; }
+        public virtual decimal TotalPrice { get; set; }
     }
 }

@@ -1,19 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DevBackEnd.Core.Entities;
+﻿using DevBackEnd.Core.Entities;
+using System;
 
 namespace DevBackEnd.Entities.Concrete
 {
     public class Order : IEntity
     {
-        public int OrderId { get; set; }
-        public int UserId { get; set; }
-        public DateTime OrderDate { get; set; }
-        public decimal TotalPrice { get; set; }
-        public byte Status { get; set; }
-        public int AddressId { get; set; }
+        public virtual int OrderId { get; set; }
+        public virtual int UserId { get; set; }
+        public virtual DateTime OrderDate { get; set; }
+        public virtual decimal TotalPrice { get; set; }
+        public virtual byte Status { get; set; }
+        public virtual int AddressId { get; set; }
     }
 }

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq.Expressions;
-using DevBackEnd.Core.DataAccess.EntityFramework;
+﻿using DevBackEnd.Core.DataAccess.EntityFramework;
 using DevBackEnd.DataAccess.Abstract;
 using DevBackEnd.Entities.Concrete;
 

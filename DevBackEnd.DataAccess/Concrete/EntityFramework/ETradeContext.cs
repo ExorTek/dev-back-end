@@ -1,4 +1,5 @@
-﻿using DevBackEnd.Entities.Concrete;
+﻿using DevBackEnd.DataAccess.Concrete.EntityFramework.Mappings;
+using DevBackEnd.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 
 namespace DevBackEnd.DataAccess.Concrete.EntityFramework
@@ -9,6 +10,7 @@ namespace DevBackEnd.DataAccess.Concrete.EntityFramework
         {
             optionsBuilder.UseSqlServer(@"Server=MEMET;Database=ETRADE;Trusted_Connection=true");
         }
+
 
         public DbSet<Address> Addresses { get; set; }
         public DbSet<City> Cities { get; set; }
@@ -21,5 +23,9 @@ namespace DevBackEnd.DataAccess.Concrete.EntityFramework
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Town> Towns { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new ProductMap());
+        }
     }
 }
