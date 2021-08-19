@@ -1,7 +1,9 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0f7e19e4_002Da043_002D4adb_002Da803_002Dc9a08c75984a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Get_all_returns_all_products" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e26448e3_002Defe0_002D4796_002D98b4_002D1f2f5104127b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Get_all_with_parameter_returns_filtered_city" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.NHibernateTest.NHibernateTest.Get_all_returns_all_products&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkCityTest.Get_all_with_parameter_returns_filtered_city&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkCityTest.Will_the_city_be_added&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkCityTest.Deleted_the_city&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkCountryTest.Get_all_with_parameter_returns_filtered_country&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:Boolean x:Key="/Default/UserDictionary/Words/=appsettings/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

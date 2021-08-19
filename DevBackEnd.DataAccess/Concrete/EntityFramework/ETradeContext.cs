@@ -12,7 +12,7 @@ namespace DevBackEnd.DataAccess.Concrete.EntityFramework
         }
 
 
-        public DbSet<Address> Addresses { get; set; }
+        public DbSet<Address> Address { get; set; }
         public DbSet<City> Cities { get; set; }
         public DbSet<Country> Countries { get; set; }
         public DbSet<District> Districts { get; set; }
@@ -23,9 +23,13 @@ namespace DevBackEnd.DataAccess.Concrete.EntityFramework
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Town> Towns { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new ProductMap());
+            modelBuilder.ApplyConfiguration(new AddressMap());
+            modelBuilder.ApplyConfiguration(new CityMap());
+            modelBuilder.ApplyConfiguration(new CountryMap());
         }
     }
 }
