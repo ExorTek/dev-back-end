@@ -20,15 +20,15 @@ namespace DevBackEnd.DataAccess.Test.EntityFrameworkTest
         public void Get_all_with_parameter_returns_filtered_address()
         {
             //success
-            EfAddressDal productDal = new EfAddressDal(new ETradeContext());
-            var result = productDal.GetList(p => p.AddressText.Contains("ab"));
+            EfAddressDal addressDal = new EfAddressDal(new ETradeContext());
+            var result = addressDal.GetList(p => p.AddressText.Contains("ab"));
             Assert.AreEqual(1438, result.Count);
         }
         [TestMethod]
-        public void Will_the_product_be_added()
+        public void Will_the_address_be_added()
         {
             //success
-            EfAddressDal productDal = new EfAddressDal(new ETradeContext());
+            EfAddressDal addressDal = new EfAddressDal(new ETradeContext());
             var address = new Address()
             {
                 AddressText = "afasfasfaf",
@@ -39,13 +39,13 @@ namespace DevBackEnd.DataAccess.Test.EntityFrameworkTest
                 PostalCode = "ADA",
                 UserId = 1
             };
-            productDal.Add(address);
+            addressDal.Add(address);
         }
         [TestMethod]
         public void Deleted_the_address()
         {
             //success
-            EfAddressDal productDal = new EfAddressDal(new ETradeContext());
+            EfAddressDal addressDal = new EfAddressDal(new ETradeContext());
             var address = new Address()
             {
                 AddressText = "afasfasfaf",
@@ -56,7 +56,7 @@ namespace DevBackEnd.DataAccess.Test.EntityFrameworkTest
                 PostalCode = "ADA",
                 UserId = 1
             };
-            productDal.Delete(address);
+            addressDal.Delete(address);
         }
     }
 }

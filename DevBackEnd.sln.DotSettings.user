@@ -5,5 +5,19 @@
     &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkCityTest.Will_the_city_be_added&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkCityTest.Deleted_the_city&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkCountryTest.Get_all_with_parameter_returns_filtered_country&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.NHibernateTest.NHibernateTest.Get_all_returns_all_products&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.NHibernateTest.NHibernateTest.Get_all_with_parameter_returns_filtered_product&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkCountryTest.Will_the_country_be_added&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkCountryTest.Deleted_the_country&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkEfDistrictTest.Get_all_returns_all_district&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkDistrictTest.Get_all_with_parameter_returns_filtered_district&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkDistrictTest.Will_the_product_be_district&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkDistrictTest.Deleted_the_district&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkInvoiceTest.Get_all_returns_all_invoice&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkDistrictTest.Get_all_returns_all_district&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkInvoiceTest.Get_all_with_parameter_returns_filtered_invoice&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkInvoiceTest.Will_the_invoice_be_added&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkInvoiceTest.Deleted_the_invoice&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::2E8D1BAB-57BB-4CF8-BDAE-E3307E5E60B8::net5.0::DevBackEnd.DataAccess.Test.EntityFrameworkTest.EntityFrameworkProductTest.Get_all_returns_all_products&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

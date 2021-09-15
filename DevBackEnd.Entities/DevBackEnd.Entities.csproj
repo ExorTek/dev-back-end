@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract\" />
+    <ProjectReference Include="..\DevBackEnd.Core\DevBackEnd.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DevBackEnd.Core\DevBackEnd.Core.csproj" />
+    <Folder Include="DTOs\" />
   </ItemGroup>
 
 </Project>

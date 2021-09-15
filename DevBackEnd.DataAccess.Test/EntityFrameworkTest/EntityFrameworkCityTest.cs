@@ -8,11 +8,11 @@ namespace DevBackEnd.DataAccess.Test.EntityFrameworkTest
     public class EntityFrameworkCityTest
     {
         [TestMethod]
-        public void Get_all_returns_all_products()
+        public void Get_all_returns_all_city()
         {
             //success
-            EfCityDal productDal = new EfCityDal(new ETradeContext());
-            var result = productDal.GetList();
+            EfCityDal cityDal = new EfCityDal(new ETradeContext());
+            var result = cityDal.GetList();
             Assert.AreEqual(81, result.Count);
         }
 
@@ -20,8 +20,8 @@ namespace DevBackEnd.DataAccess.Test.EntityFrameworkTest
         public void Get_all_with_parameter_returns_filtered_city()
         {
             //success
-            EfCityDal productDal = new EfCityDal(new ETradeContext());
-            var result = productDal.GetList(p => p.CityName.Contains("ab"));
+            EfCityDal cityDal = new EfCityDal(new ETradeContext());
+            var result = cityDal.GetList(p => p.CityName.Contains("ab"));
             Assert.AreEqual(2, result.Count);
         }
 
@@ -29,26 +29,26 @@ namespace DevBackEnd.DataAccess.Test.EntityFrameworkTest
         public void Will_the_city_be_added()
         {
             //success
-            EfCityDal productDal = new EfCityDal(new ETradeContext());
+            EfCityDal cityDal = new EfCityDal(new ETradeContext());
             var city = new City()
             {
                 CityName = "Test",
                 CountryId = 1
             };
-            productDal.Add(city);
+            cityDal.Add(city);
         }
 
         [TestMethod]
         public void Deleted_the_city()
         {
             //success
-            EfCityDal productDal = new EfCityDal(new ETradeContext());
+            EfCityDal cityDal = new EfCityDal(new ETradeContext());
             var city = new City()
             {
                 CityName = "Test",
                 CountryId = 1
             };
-            productDal.Delete(city);
+            cityDal.Delete(city);
         }
     }
 }

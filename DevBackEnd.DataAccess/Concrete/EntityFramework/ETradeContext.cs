@@ -1,4 +1,5 @@
-﻿using DevBackEnd.DataAccess.Concrete.EntityFramework.Mappings;
+﻿using DevBackEnd.DataAccess.Concrete.DbConfiguration;
+using DevBackEnd.DataAccess.Concrete.EntityFramework.Mappings;
 using DevBackEnd.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,7 +9,8 @@ namespace DevBackEnd.DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=MEMET;Database=ETRADE;Trusted_Connection=true");
+            var connectionString = new ServerConfiguration().ConnectionServer();
+            optionsBuilder.UseSqlServer(connectionString);
         }
 
 
@@ -23,6 +25,7 @@ namespace DevBackEnd.DataAccess.Concrete.EntityFramework
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Town> Towns { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -30,6 +33,8 @@ namespace DevBackEnd.DataAccess.Concrete.EntityFramework
             modelBuilder.ApplyConfiguration(new AddressMap());
             modelBuilder.ApplyConfiguration(new CityMap());
             modelBuilder.ApplyConfiguration(new CountryMap());
+            modelBuilder.ApplyConfiguration(new DistrictMap());
+            modelBuilder.ApplyConfiguration(new InvoiceMap());
         }
     }
 }

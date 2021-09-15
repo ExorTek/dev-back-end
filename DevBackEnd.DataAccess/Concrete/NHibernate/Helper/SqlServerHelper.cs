@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using DevBackEnd.Core.DataAccess.NHibernate;
+using DevBackEnd.DataAccess.Concrete.DbConfiguration;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using Microsoft.Extensions.Configuration;
@@ -21,11 +22,7 @@ namespace DevBackEnd.DataAccess.Concrete.NHibernate.Helper
             //return Fluently.Configure().Database(MsSqlConfiguration.MsSql2012.ConnectionString(connectionString))
             //    .Mappings(t => t.FluentMappings.AddFromAssembly(Assembly.GetExecutingAssembly())).BuildSessionFactory();
 
-            var configuration = new ConfigurationBuilder()
-                .AddJsonFile("appsettings.json")
-                .Build();
-            var connectionString = configuration["ConnectionStrings:MsSqlServer"];
-
+            var connectionString = new ServerConfiguration().ConnectionServer();
             return Fluently.Configure().Database(MsSqlConfiguration.MsSql2012.ConnectionString(connectionString))
                 .Mappings(t => t.FluentMappings.AddFromAssembly(Assembly.GetExecutingAssembly())).BuildSessionFactory();
         }
